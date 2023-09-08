@@ -1,33 +1,47 @@
 #include <stdio.h>
 /**
-* main - program that prints all possible different combinations of 3 digits.
-* Return: 0
+* main - Prints numbers between 00 to 99.
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
- int i, j;
+int i, e, g, h, op1, op2;
 
-for (i = 0; i < 100; i++)
+i = e = g = h = 48;
+while (h < 58)
 {
-for (j = i; j < 100; j++)
-{	
-if (i != j)
+g = 48;
+while (g < 58)
 {
-/* Print the first number with two digits */
-putchar((i / 10) + '0');
-putchar((i % 10) + '0');
-/* Print a space between the two numbers */
+e = 48;
+while (e < 58)
+{
+i = 48;
+while (i < 58)
+{
+op1 = (h * 10) + g;
+op2 = (e * 10) + i;
+if (op1 < op2)
+{
+putchar(h);
+putchar(g);
 putchar(' ');
-/* Print the second number with two digits */
-putchar((j / 10) + '0');
-putchar((j % 10) + '0');
-/* Print a comma and a space to separate combinations */
+putchar(e);
+putchar(i);
+if (h == 57 && g == 56 && e == 57 && i == 57)
+break;
 putchar(',');
 putchar(' ');
 }
+i++;
 }
+e++;
+}
+g++;
+}
+h++;
 }
 putchar('\n');
 return (0);
 }
-
