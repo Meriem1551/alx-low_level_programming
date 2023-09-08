@@ -20,7 +20,7 @@ putchar(num + '0');
 if ( num != 89)
 {
 putchar(',');
-putcar(' ');
+putchar(' ');
 }
 }
 putchar ('\n');
