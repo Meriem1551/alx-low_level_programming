@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* main -print a string
-* Description: using printf
-* display "_putchar"
-* return 0
-*/
+ * main - Entry point of the program
+ *
+ * Return: 0 for successful execution, non-zero for errors
+ */
+
 int main(void)
 {
 _putchar('_');
