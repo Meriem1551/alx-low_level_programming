@@ -1,12 +1,9 @@
 #include <stdio.h>
 /**
- * fibonacci - Computes the Fibonacci sequence
- *
- * Description: This function computes the Fibonacci sequence up to a specified
- * limit and prints the sequence to the standard output.
- *
- * @limit: The limit up to which to compute the Fibonacci sequence
- */
+* main - Prints the first 52 fibonacci numbers
+*
+* Return: Nothing!
+*/
 int main(void)
 {
 int i = 0;
