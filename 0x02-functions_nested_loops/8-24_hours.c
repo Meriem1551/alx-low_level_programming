@@ -15,12 +15,8 @@ for (m = 0 ; m <= 3 ; m++)
 {
 for (s = 0 ; s <= 5 ; s++)
 {
-for (ms = 0 ; ms <= 10 ; ms++)
+for (ms = 0 ; ms < 10 ; ms++)
 {
-if (ms == 9)
-{
-break;
-}
 _putchar(h + '0');
 _putchar(m + '0');
 _putchar(':');
