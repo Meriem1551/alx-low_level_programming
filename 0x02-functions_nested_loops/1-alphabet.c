@@ -1,7 +1,8 @@
 #include "main.h"
 /**
 * print alphabet - Make the alphabet
-* return always 0
+*
+* Description : using the _putchar function and for loop
 */
 
 void print_alphabet(void)
