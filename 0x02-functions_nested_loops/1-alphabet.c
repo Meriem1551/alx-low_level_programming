@@ -2,9 +2,8 @@
 /**
 * print alphabet - Make the alphabet
 *
-* Description : using the _putchar function and for loop
+* Description : using the _putchar function and for loop we print the alphabet
 */
-
 void print_alphabet(void)
 {
 char c;
