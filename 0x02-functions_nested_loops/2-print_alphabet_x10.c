@@ -2,9 +2,11 @@
 /**
 * print_alphabet - Prints the lowercase alphabet
 *
-* Description: This function prints all lowercase letters from 'a' to 'z' 10 times
-* using the putchar function.
+* Description: This function prints all lowercase letters from 'a' to 'z' 
+* 10 times
+* using the putchar function
 */
+
 void print_alphabet_x10(void)
 {
 char c;
