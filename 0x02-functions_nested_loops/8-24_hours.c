@@ -17,6 +17,10 @@ for (s = 0 ; s <= 5 ; s++)
 {
 for (ms = 0 ; ms <= 10 ; ms++)
 {
+if (ms == 9)
+{
+continue;
+}
 _putchar(h + '0');
 _putchar(m + '0');
 _putchar(':');
