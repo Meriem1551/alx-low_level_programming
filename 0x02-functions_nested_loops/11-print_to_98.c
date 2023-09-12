@@ -28,7 +28,7 @@ else if (n == 98)
 {
 printf("%d", n);
 }
-else 
+else
 {
 for (num = n ; num >= 98 ; num--)
 {
