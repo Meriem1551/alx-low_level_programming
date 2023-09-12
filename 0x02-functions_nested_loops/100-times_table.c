@@ -23,8 +23,8 @@ _putchar(result + '0');
 }
 else
 {
-_putchar(",");
-_putchar(" ");
+_putchar(',');
+_putchar(' ');
 _putchar(result + '0');
 }
 }
