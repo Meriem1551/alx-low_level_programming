@@ -19,7 +19,7 @@ for (ms = 0 ; ms <= 10 ; ms++)
 {
 if (ms == 9)
 {
-continue;
+break;
 }
 _putchar(h + '0');
 _putchar(m + '0');
