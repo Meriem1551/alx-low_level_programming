@@ -14,11 +14,8 @@ for (num2 = 0 ; num2 <= 9 ; num2++)
 {
 result = num1 * num2;
 _putchar(result + '0');
-if (num1 != 9 || num2 != 9)
-{
 _putchar(',');
 _putchar(' ');
-}
 }
 _putchar('\n');
 }
