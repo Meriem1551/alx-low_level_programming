@@ -19,10 +19,11 @@ for (ms = 0 ; ms <= 10 ; ms++)
 {
 _putchar(h + '0');
 _putchar(m + '0');
+_putchar(':');
 _putchar(s + '0');
 _putchar(ms + '0');
-}
 _putchar('\n');
+}
 }
 }
 }
