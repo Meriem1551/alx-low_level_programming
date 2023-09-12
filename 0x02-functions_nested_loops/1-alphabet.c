@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-* print alphabet - Make the alphabet
-*
-* Description : using the _putchar function and for loop we print the alphabet
-*/
+ * print_alphabet - Prints the lowercase alphabet
+ *
+ * Description: This function prints all lowercase letters from 'a' to 'z'
+ * using the putchar function.
+ */
 void print_alphabet(void)
 {
 char c;
