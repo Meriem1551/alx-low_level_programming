@@ -24,7 +24,7 @@ for (j = 1 ; j <= size-i ; j++)
 {
 printf(" ");
 }
-for (j = 1 ; k <= i ; k++)
+for (j = 1 ; j <= i ; k++)
 {
 printf("#");
 }
