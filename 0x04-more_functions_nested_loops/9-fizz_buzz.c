@@ -4,7 +4,8 @@
  *
  * Description: This is the main function for the FizzBuzz program. It prints
  * numbers from 1 to 100, following the FizzBuzz rules. For multiples of 3, it
- * prints "Fizz," for multiples of 5, it prints "Buzz," and for numbers that are
+ * prints "Fizz," for multiples of 5,
+ * it prints "Buzz," and for numbers that are
  * multiples of both 3 and 5, it prints "FizzBuzz." All output is separated by
  * spaces, and a newline is added at the end.
  *
