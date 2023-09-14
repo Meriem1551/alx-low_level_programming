@@ -1,15 +1,17 @@
 #include "main.h"
 /**
- * mul - multiplies two integers
+ * mul - Multiplies two integers
  *
- * Description: This function calculte and return the product of two numbers
+ * Description: This function takes two integers as input and returns their
+ * product.
  *
- * @a and @b: numbers to be multiplied
+ * @a: The first integer
+ * @b: The second integer
  *
- * Return a*b
+ * Return: The product of `a` and `b`
  */
 int mul(int a, int b)
 {
-return (a*b);
+return (a * b);
 }
 
