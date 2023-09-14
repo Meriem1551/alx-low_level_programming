@@ -11,20 +11,20 @@
  */
 void print_triangle(int size)
 {
-int i, j;
+int i, j, k;
 if (size <= 0)
 {
 printf("\n");
 }
 else
 {
-for (i = 1 ; i <= size ; i++)
+for (i = 0 ; i < size ; i++)
 {
-for (j = 1 ; j < size-i ; j++)
+for (j = 0 ; j < size-i ; j++)
 {
 printf(" ");
 }
-for (j = 1 ; j <= i ; j++)
+for (k = j + 1 ; k <= size ; k++)
 {
 printf("#");
 }
