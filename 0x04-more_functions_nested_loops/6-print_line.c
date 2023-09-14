@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_line - Prints a line of a specified length using the underscore character
+ * print_line - Prints a line of a specified length
+ * using the underscore character
  *
  * Description: This function prints a line of a specified length using the
  * underscore character ('_'). After printing the line, it adds a newline.
