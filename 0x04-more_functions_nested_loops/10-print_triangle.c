@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_triangle - Prints a right-angled triangle of a specified size
  *
