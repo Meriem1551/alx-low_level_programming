@@ -22,7 +22,7 @@ _putchar(str[n]);
 }
 else
 {
-for (n = (length - 1) / 2 ; n < length ; n++)
+for (n = (length - 1) / 2 + 1 ; n < length ; n++)
 {
 _putchar(str[n]);
 }
