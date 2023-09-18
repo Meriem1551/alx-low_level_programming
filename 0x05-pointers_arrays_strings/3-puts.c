@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _puts - Prints a string to the standard output
  *
@@ -12,6 +11,10 @@
  */
 void _puts(char *str)
 {
-puts(str);
+int index;
+for (index = 0; str[index] != '\0'; index++)
+{
+_putchar(str[index]);
+}
 _putchar('\n');
 }
