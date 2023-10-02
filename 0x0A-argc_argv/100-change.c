@@ -16,12 +16,6 @@ if (argc != 2)
 printf("%s\n", c);
 return (1);
 }
-if (atoi(argv[1]) < 0)
-{
-printf("%d\n", 0);
-}
-else
-{
 dev = atoi(argv[1]);
 while (dev >= 25)
 {
@@ -48,6 +42,5 @@ if (dev == 1)
 coins++;
 }
 printf("%d\n", coins);
-}
 return (0);
 }
