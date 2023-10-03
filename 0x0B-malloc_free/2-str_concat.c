@@ -22,6 +22,10 @@ for (index = 0; s1[index] || s2[index]; index++)
 len++;
 }
 s3 = (char *)malloc(sizeof(char) * len);
+if (s3 == NULL)
+{
+return (NULL);
+}
 if (s1 == NULL)
 {
 s1 = "";
@@ -29,10 +33,6 @@ s1 = "";
 if (s2 == NULL)
 {
 s2 = "";
-}
-if (s3 == NULL)
-{
-return (NULL);
 }
 strcpy(s3, s1);
 strcat(s3, s2);
