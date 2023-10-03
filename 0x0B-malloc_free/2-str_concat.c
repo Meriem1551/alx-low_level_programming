@@ -15,10 +15,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-int len_s1 = strlen(s1);
-int len_s2 = strlen(s2);
-int total_len = len_s1 + len_s2 + 1;
-char *s3 = (char *)malloc(total_len);
+char *s3 = (char *)malloc(sizeof(char) + 11);
 if (s1 == NULL)
 {
 s1 = "";
