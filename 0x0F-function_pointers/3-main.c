@@ -11,8 +11,6 @@ int main(int argc, char *argv[])
 {
 int num1, num2;
 int (*operation_func)(int, int);
-num1 = atoi(argv[1]);
-num2 = atoi(argv[3]);
 if (argc != 4)
 {
 printf("Error\n");
@@ -29,6 +27,8 @@ if (operation_func == NULL)
 printf("Error\n");
 exit(98);
 }
+num1 = atoi(argv[1]);
+num2 = atoi(argv[3]);
 printf("%d\n", operation_func(num1, num2));
 return (0);
 }
