@@ -8,27 +8,25 @@
 int main (int argc, char *argv[])
 {
 int num1, num2;
-int result;
 int (*operation_func)(int, int);
 num1 = atoi(argv[1]);
 num2 = atoi(argv[3]);
-if (argc > 4)
+if (argc != 4)
 {
 printf("Error\n");
 exit(98);
 }
-if (argv[2] != '+' || argv[2] != '-' || argv[2] != '*' || argv[2] != '/' || argv[2] != '%')
+if (argv[2][1])
 {
 printf("Error\n");
 exit(99);
 }
-if (num2 == 0 && (argv[2] == '/' || argv[2] == '%'))
+operation_func = get_op_func(argv[2]);
+if (operation_func == NULL)
 {
 printf("Error\n");
-exit(100);
+exit(98);
 }
-operation_func = get_op_func(argv[2]);
-result = operation_func(num1, num2);
-printf("%d\n", result);
+printf("%d\n", operation_func(num1, num2));
 return (0);
 }

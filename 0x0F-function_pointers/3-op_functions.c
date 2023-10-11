@@ -8,9 +8,7 @@
  */
 int op_add(int a, int b)
 {
-int sum; 
-sum = a + b;
-return (sum);
+return (a + b);
 }
 /**
  * op_sub - substracting two numbers
@@ -19,9 +17,7 @@ return (sum);
  */
 int op_sub(int a, int b)
 {
-int sub;
-sub = a - b;
-return(sub);
+return(a - b);
 }
 /**
  * op_mul - multiplying two numbers
@@ -30,9 +26,7 @@ return(sub);
  */
 int op_mul(int a, int b)
 {
-int mul;
-mul = a * b;
-return (mul);
+return (a * b);
 }
 /**
  * op_div - dividing two numbers
@@ -41,10 +35,12 @@ return (mul);
  */
 int op_div(int a, int b)
 {
-int div;
 if (b == 0)
-div = a / b;
-return (div);
+{
+printf("Error\n");
+exit(100);
+}
+return (a / b);
 }
 /**
  * op_mod - finding the modulo of two numbers
@@ -53,7 +49,10 @@ return (div);
  */
 int op_mod(int a, int b)
 {
-int mod;
-mod = a % b;
-return (mod);
+if (b == 0)
+{
+printf("Error\n");
+exit(100);
+}
+return (a % b);
 }
