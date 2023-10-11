@@ -1,11 +1,12 @@
 #include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
-/** main - main function of this code
+/**
+ * main - main function of this code
  * @argc: pointer to number of args
  * @argv: pointer to the args
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 int num1, num2;
 int (*operation_func)(int, int);
