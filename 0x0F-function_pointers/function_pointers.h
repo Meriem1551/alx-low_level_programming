@@ -1,3 +1,4 @@
+#include <stddef.h>
 #ifndef _function_pointers_h_
 #define _function_pointers_h_
 int _putchar(char ch);
