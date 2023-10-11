@@ -5,6 +5,7 @@
  * main - main function of this code
  * @argc: pointer to number of args
  * @argv: pointer to the args
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
