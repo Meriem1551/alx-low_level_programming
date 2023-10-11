@@ -18,8 +18,7 @@ op_t ops[] = {
 {"%", op_mod},
 {NULL, NULL}
 };
-int i;
-i = 0;
+int i = 0;
 while (i < 10)
 {
 if (s[0] ==  ops->op[i])
