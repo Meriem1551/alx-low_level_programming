@@ -10,14 +10,14 @@
 
 size_t print_list(const list_t *h)
 {
-	list_t *p = h;
+	const list_t *p = h;
 	unsigned int num_nodes = 0;
 	if (p == NULL)
 	{
 		printf("Empty list");
 		return (0);
 	}
-	while (p ! = NULL)
+	while (p != NULL)
 	{
 		if (p->str == NULL)
 		{
