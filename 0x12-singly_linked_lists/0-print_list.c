@@ -13,16 +13,11 @@ size_t print_list(const list_t *h)
 	const list_t *p = h;
 	size_t num_nodes = 0;
 
-	if (p == NULL)
-	{
-		printf("Empty list");
-		return (0);
-	}
 	while (p != NULL)
 	{
 		if (p->str == NULL)
 		{
-			printf("[0] (nil)\n");
+			printf("[%d] (nil)\n", 0);
 		}
 		else
 		{
