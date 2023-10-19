@@ -6,8 +6,12 @@
  */
 void free_list(list_t *head)
 {
-	if (head == NULL)
-		printf("Empty list");
-	else
-		free(head);
+	list_t *p;
+	while (head != NULL)
+	{
+		p = head;
+		free(p->str);
+		free(p);
+		head = head->next;
+	}
 }
