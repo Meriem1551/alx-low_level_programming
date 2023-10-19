@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_node_end - add node at the end of a list 
+ * add_node_end - add node at the end of a list
  * Description: Takes a pointer to the list and a pointer to the string and
  * add a node at the end of this list
  * @head: pointer to the list
@@ -11,6 +11,7 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_node, *pre_node;
 	int str_len = 0;
+
 	new_node = (list_t *)malloc(sizeof(list_t));
 	if (new_node == NULL)
 		return (NULL);
