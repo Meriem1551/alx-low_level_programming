@@ -15,7 +15,7 @@
  * - On success, it returns the character that was written.
  * - On error, it returns -1.
  */
-int _putchar(char ch)
+int _putchar(char c)
 {
-return (write(1, &ch, 1));
+return (write(1, &c, 1));
 }
