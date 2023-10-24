@@ -1,8 +1,8 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * print_list - prints all the elements of a list_t list
- * @h: constant pointer type list_t
+ * print_listint - prints all the elements of a listint_t list
+ * @h: constant pointer type listint_t
  *
  * Return: the numbers of nodes
  */
