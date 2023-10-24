@@ -45,4 +45,5 @@ listnode_t *add_nodeptr(listnode_t **head, const listint_t *ptr);
 void free_listnode(listnode_t *head);
 int is_in_nodes(listnode_t *head, const listint_t *ptr);
 size_t free_listint_safe(listint_t **h);
+listint_t *find_listint_loop(listint_t *head);
 #endif
