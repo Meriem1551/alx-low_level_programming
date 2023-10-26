@@ -10,7 +10,7 @@
 **"Not" operation**: '~'
 
 **Right shift operation: '>>': each number 1 in the number must be shifted
-to the right 
+to the right
 
-**Left shift operation: '<<': each number 1 in the number must be shifted 
+**Left shift operation: '<<': each number 1 in the number must be shifted
 to the left
