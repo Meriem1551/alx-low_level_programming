@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * create_file:  creates a file.
+ * create_file - creates a file.
  * @filename: pointer
  * @text_content: pointer to string
  * Return: Returns: 1 on success, -1 on failure

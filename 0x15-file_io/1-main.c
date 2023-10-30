@@ -5,7 +5,7 @@
 /**
  * main - check the code
  * @ac: number of args
- * @args: pointer to arguments
+ * @av: pointer to arguments
  * Return: Always 0.
  */
 int main(int ac, char **av)
