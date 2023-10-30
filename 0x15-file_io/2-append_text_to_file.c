@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-/** 
+/**
  * append_text_to_file - appends text at the end of a file.
  * @filename: pointer
  * @text_content: pointer to string
