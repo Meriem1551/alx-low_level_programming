@@ -3,7 +3,8 @@
 #include "main.h"
 /**
  * main - check the code
- *
+ * @ac: number of arguments
+ * @av: pointer to the arguments
  * Return: Always 0.
  */
 int main(int ac, char **av)
