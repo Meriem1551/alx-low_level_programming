@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * add_dnodeint - adds a new node at the beginning of a dlistint_t list.
- * @h: pointer to pointer to list
+ * @head: pointer to pointer to list
  * @n: number to insert in new node
  * Return: pointer to new list
  */
