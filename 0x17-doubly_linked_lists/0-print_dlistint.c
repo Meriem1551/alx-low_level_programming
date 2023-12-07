@@ -11,12 +11,12 @@ size_t print_dlistint(const dlistint_t *h)
 {
 const dlistint_t *tmp;
 size_t num_nodes = 0;
-if(h == NULL)
+if (h == NULL)
 return (0);
 tmp = h;
-while(tmp != NULL)
+while (tmp != NULL)
 {
-printf("%d\n",tmp->n);
+printf("%d\n", tmp->n);
 num_nodes++;
 tmp = tmp->next;
 }
