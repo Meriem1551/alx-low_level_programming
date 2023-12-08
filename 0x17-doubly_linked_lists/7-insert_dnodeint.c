@@ -7,7 +7,7 @@
  * @h: pointer to list
  * @idx: position where  to add the node
  * @n: number to add
- * Return: pointer to new list
+ * Return: new node adress
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
@@ -48,5 +48,5 @@ tmp->next = new;
 new->prev = tmp;
 }
 }
-return (*h);
+return (new);
 }
